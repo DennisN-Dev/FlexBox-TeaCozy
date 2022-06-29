@@ -57,3 +57,28 @@ body {
     opacity: 0.8;
     color: seashell;
 }
+
+/* Menu Styles */
+
+.container-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-photos img {
+    width: 300px;
+    height: 200px;
+}
+
+.menu-photos {
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-two-menu {
+    display: flex;
+}
