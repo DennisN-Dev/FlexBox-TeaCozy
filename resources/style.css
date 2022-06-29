@@ -9,6 +9,7 @@ body {
     text-align: center;
 }
 
+
 /* Header Styles */
 
 .header-container {
@@ -16,10 +17,9 @@ body {
     width: 100%;
     height: 69px;
     border-bottom: 1px solid seashell;
-    position: fixed;
+
     justify-content: space-between;
     align-items: center;
-
 }
 
 .logo-flex {
@@ -31,4 +31,29 @@ body {
 .navbar a {
     color: seashell;
     padding-right: 20px;
+}
+
+/* Mission Section Styles */
+
+.mission-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.mission-statement-flex {
+    display: flex;
+    background-image: url("photos/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-mission {
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+    color: seashell;
 }
