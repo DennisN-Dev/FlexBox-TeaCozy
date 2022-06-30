@@ -104,8 +104,9 @@ body {
 }
 
 .location-address {
-    width: 300px;
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 290px;
     background-color: black;
     opacity: 0.9;
     color: seashell;
@@ -119,4 +120,13 @@ body {
 .h2-locations {
     font-size: 48px;
     font-weight: bold;
+}
+
+/* Contact Styles */
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
